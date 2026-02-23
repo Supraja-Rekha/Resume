@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Allura&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#fefefe;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family:'Poppins', sans-serif;
+}
+
+.resume{
+    width:850px;
+    background:#ffffff;
+    border:solid 10px #e4c2ca;
+    border-radius:30px;
+    overflow:hidden;
+    display:flex;
+    margin-top: 30px;
+}
+
+.top{
+    height: 325px;
+    width:1000px;
+    background-color:#e4c2ca;
+    margin-left: -30px;
+    margin-top: -39px;
+}
+
+/* LEFT SIDE */
+.left{
+    width:35%;
+    height: 1200px;
+    background:#f4e7ea;
+    padding:40px 25px;
+    text-align:center;
+    margin-left: -900px;
+    margin-top: 20px;
+}
+
+.profile-img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    border:8px solid #ffffff;
+    margin-bottom:25px;
+
+}
+
+
+.section{
+    margin-bottom:30px;
+    text-align:left;
+}
+
+.section-title{
+    width:220px;
+    background:#e4c2ca;
+    padding:10px;
+    border-radius:30px;
+    text-align:center;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-bottom:15px;
+}
+
+.section p, .section li{
+    font-size:13px;
+    margin-bottom:8px;
+    color:#333;
+}
+
+.section ul{
+    padding-left:18px;
+}
+
+.p1{
+    margin-left:50px;
+}
+
+.p2{
+    margin-left: 22px;
+}
+
+.p3{
+    margin-left:25px ;
+}
+
+.des{
+    text-align: justify;
+    text-align-last:justify;
+}
+/* RIGHT SIDE */
+.right{
+    width:65%;
+    padding:50px 40px;
+}
+
+.name{
+    font-family:'Allura', cursive;
+    font-size:80px;
+    margin-bottom:10px;
+    margin-top: -20px;
+}
+
+.designation{
+    display:inline-block;
+    background:#f3dde2;
+    padding:8px 25px;
+    border-radius:25px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:40px;
+}
+
+.right-section{
+    margin-bottom:35px;
+}
+
+.right-section .section-title{
+    display:inline-block;
+    padding:10px 25px;
+}
+
+.left-section .section-title{
+    display:inline-block;
+    padding:10px 25px;
+
+}
+
+
+.job-title{
+    font-weight:600;
+    margin-top:10px;
+}
+
+
+.right-section ul{
+    padding-left:20px;
+}
+
+.right-section li{
+    font-size:13px;
+    margin-bottom:6px;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .resume{
+        flex-direction:column;
+        width:95%;
+    }
+    .left, .right{
+        width:100%;
+    }
+}
+
+.logo{
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.projects{
+    display: grid;
+    grid-template-columns:repeat(3,150px);
+    row-gap: 20px;
+    
+}
+.pro1,.pro2,.pro3,.pro4,.pro5{
+    height: 140px;
+    width: 135px;
+    border: solid skyblue 1px;
+    box-shadow: 5px 5px 10px 5px gray;
+}
+
+.projects > div > img{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- LEFT COLUMN -->
+    <div class="top">
+    </div>
+    <div class="left">
+        <img src="profile.jpeg" alt="Profile" class="profile-img">
+
+        <div class="section">
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF-s8RLs3GASbwJjb--j8KUNiU639ofRqJhg&s" alt="" height="30px" width="30px">
+            <div class="section-title">ABOUT ME</div>
+            <p class="des">
+                Iam highly Motivated and searching for an entry-level position in your company
+                to apply technical,database management and problem-solving skills to deliver 
+                successful projects.
+            </p>
+        </div>
+
+        <div class="section" >
+            <img class="logo" src="https://i.pinimg.com/736x/95/f9/4a/95f94aae3d694bb08f05ca8d30c1096c.jpg" alt="" height="30px" width="30px">
+            <div class="section-title">CONTACT</div>
+                <p class="p1">+91 9390095906</p>
+                <p class="p2">supraja643007@gmail.com</p>
+                <p class="p3">Tirupati, Andhra Pradesh</p>
+        </div>
+
+        <div class="section">
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-C3olM60SxOophEfpQVXUHzq_SpdYTsfiGQ&s" alt="" height="30px" width="30px">
+            <div class="section-title">EDUCATION</div>
+            <ul>
+                <li><strong>Graduation:</strong><br>BCA(Data Science)-SDHR Degree & PG College [2025] <br><b>GPA : 90%</b></li>
+                <li><strong>Intermediate:</strong><br>Sri Chaitanya Junior College[2022] <br><b>GPA : 94.6%</b></li>
+                <li><strong>SSC:</strong><br>Sri Saraswathi Vidyanikethan High School[2020]<br><b>GPA : 100%</b></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right">
+
+        <div class="name">Supraja <br> &ensp;&ensp; Rekha K</div>
+        <div class="designation">FRESHER</div>
+
+        <div class="right-section">
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm7qIQwvHpOc7BMLjnW5zFJ6Guxvow7qoUGA&s" alt="" height="30px" width="30px">
+            <div class="section-title">SKILLS</div>
+            <ul>
+                <img src="https://images.icon-icons.com/2108/PNG/512/python_icon_130849.png" alt="" height="60px" width="60px">
+                <img src="https://juststickers.in/wp-content/uploads/2016/05/django-badge.png" alt="" height="50px" width="50px">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small/html5-emblem-orange-shield-and-white-text-vector.jpg" alt="" height="60px" width="60px">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/680/small/css3-emblem-blue-shield-and-white-text-vector.jpg" alt="" height="60px" width="60px">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/001/416/690/small/js-emblem-orange-shield-and-white-text-vector.jpg" alt="" height="60px" width="60px">
+                <img src="https://ineasysteps.com/wp-content/uploads/2023/06/008-1sql-logo-scaled.jpg" alt="" height="50px" width="50px">
+                
+            </ul>
+            
+        </div>
+
+        <div class="right-section">
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcAPdFd-APGyEry513rST_-DmwtB3ryhuCpA&s" alt="" height="30px" width="30px">
+            <div class="section-title">PROJECTS</div>
+            <!-- <ul>
+                <li><strong>Face Detection System:</strong> Real-time detection using OpenCV.</li>
+                <li><strong>Audio Extractor:</strong> Converted MP4 to MP3 using MoviePy.</li>
+                <li><strong>Hangman Game:</strong> Python-based console game.</li>
+            </ul> -->
+            <section class="projects">
+                <ul>
+                <li>FLIPKART , SWIGGY webpages</li>
+                <li> HANGMAN GAME</li>
+            </ul>
+
+            </section>
+
+        </div>
+
+        <div class="right-section">
+            <img class="logo" src="https://thumbs.dreamstime.com/b/image-features-pink-trophy-symbolizing-achievement-success-designed-celebration-events-competitions-recognition-371436901.jpg" alt="" height="30px" width="30px">
+            <div class="section-title">ACHIEVEMENTS</div>
+            <ul>
+                <li>I got Certification on <b>Python Development Intenship</b> from Sattva Info Tech [2025]</li>
+                <li>Certification on <b>APSSDC</b> - Communication Skills [2024]</li>
+                <li>Certificatiion on <b> Mahindra Pride Classroom,Naaandi Foundation</b> - Employability Skill Training [2025]</li>
+            </ul>
+        </div>
+
+         <div class="right-section">
+            <img class="logo" src="https://www.pngkey.com/png/detail/275-2759749_language-icon-pink.png" alt="" height="30px" width="30px">
+            <div class="section-title">LANGUAGES</div>
+            <ul>
+                <li>ENGLISH</li>
+                <li>TELUGU</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
